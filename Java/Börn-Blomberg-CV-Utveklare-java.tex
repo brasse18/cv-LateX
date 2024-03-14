@@ -1,0 +1,316 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox} % Lägg till adjustbox-paketet
+
+\newgeometry{left=1.5cm, right=1.5cm, top=1.5cm}
+\setlist[itemize]{itemsep=-2pt}
+\definecolor{colorBlue}{HTML}{646EDB}
+\definecolor{colorBlueTwo}{HTML}{64AADB}
+\definecolor{colorRed}{HTML}{DB646E}
+\definecolor{colorGreen}{HTML}{6FDB64}
+\definecolor{colorBron}{HTML}{DB9564}
+
+\definecolor{colorMainText}{HTML}{222222}
+\definecolor{colorSubText}{HTML}{666666}
+
+\definecolor{colorTitelErfarenhet}{HTML}{DB9564}
+
+% Definiera färgen för subrubrikerna
+
+%\setlength{\arrayrulewidth}{1pt} % Ta bort tjockleken på tabellens linjer
+
+\begin{document}
+
+\begin{minipage}[t]{0.7\textwidth}
+\titleformat{\section}{\Huge\bfseries}{\thesection}{1em}{}
+\titlespacing{\subsection}{0pt}{*0.5}{*0.5}
+\section*{\textcolor{colorBlue}{Björn Blomberg}}
+\subsection*{\textcolor{colorTitelErfarenhet}{Systemutvecklare}}
+\subsection*{3 års erfarenhet av systemutveckling}
+\rule{10cm}{0.4pt}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\vspace{1.5cm}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}
+\vspace{-10pt} % Justera vertikal placering av minipage
+\end{minipage}%
+
+\noindent
+\begin{minipage}[t]{0.7\textwidth}
+\vspace{-20pt} % Justera vertikal placering av minipage
+\section*{\textcolor{colorBlue}{Profil}}
+Björn är en passionerad utvecklare med strax över 3 års erfarenhet av 
+mjukvaruutveckling. Han har programmerat i många olika språk och miljöer, bland 
+annat Java, C++, Eclipse och Visual Studio. Detta har gett honom en etablerad 
+grund i att orientera sig i nya tekniska system \& miljöer samt resulterat i att han har 
+fått en stor förståelse för hela utvecklingsprocessen ser ut. 
+
+\vspace{10pt}
+Han har ett starkt intresse för Linux och har dessutom läst en specialistutbildning 
+inom området. På sin fritid har Björn utvecklat en hel del projekt som han även har 
+publicerat på sin gitHub. 
+
+\vspace{10pt}
+Björn har ett stort driv och engagemang för att lösa spännande utmaningar och nya problem!
+
+\vspace{15pt} % Justera vertikal placering av minipage
+\section*{\textcolor{colorBlue}{Erfarenhet}}
+
+\subsection*{\textcolor{colorTitelErfarenhet}{CGI, Server hanterare klient – 2023/08 till 2023/09}}
+Björn var ensam utvecklare för detta projekt för att hantera en servers olika funktioner som 
+varierar från övervakning av tjänster till ett gränssnitt för filhämtning. Användargränssnittet 
+använder sig av skalbar vektorgrafik för att uppnå en bättre användare vänlighet och estisk. 
+Utvecklingen implementerades enligt följa alla stegen i en CI/CD process. 
+
+\vspace{5pt}\textit{Tekniker som använts: Node.js, TypeScript, JavaScript, Vue3, HTML, CSS, GIT, Bash, Linux och SVG.}
+
+\vspace{15pt} % Justera vertikal placering av minipage
+\subsection*{\textcolor{colorTitelErfarenhet}{CGI, Blekingetrafiken buss APP – 2023/08 till 2023/08}}
+Björn var ensam utvecklare där han gjorde alla steg i processen från CI/CD, implementation, 
+Testning, publicering av projektet. Projektet hjälper Björn och andra att kolla upp transport 
+till och från CGI kontoret för mer effektiv tidshantering. Appen använder sig av blekingetrafikens 
+API för att få data om dom olika resmålen.
+
+\vspace{5pt}\textit{Tekniker som använts: Python3, GIT, Bash, Linux, Dockor och Jenkins.}
+
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.28\textwidth}
+\begin{minipage}[t]{0.8\textwidth}
+\vspace{-140pt} % Justera vertikal placering av minipage
+  \includegraphics[width=\linewidth]{me.png}
+  \label{fig:bild}
+\end{minipage}
+\vspace{-10pt} % Justera vertikal placering av minipage
+\subsection*{\textcolor{colorBlue}{Kvalitiationer}}
+\begin{itemize}
+  \item Nätverk
+  \item Problemlösning
+  \item Mjukvarudesign
+  \item Agila arbetsflöden
+  \item Serverunderhåll
+  \item Linux system / Bash
+  \item Assembler AT\&T/ GNU
+  \item C / C++ / C\# / Objekt-C
+  \item Java / JavaScript / .NET
+  \item Python / GO
+  \item HTML / CSS / PHP /SQL
+  \item Spring Boot / Gradel
+  \item Unit Testing
+  \item Integration Teststing
+  \item Windows Subsystem Linux (WSL)
+\end{itemize}
+\vspace{-10pt} % Justera vertikal placering av minipage
+\subsection*{\textcolor{colorBlue}{Verktyg \& programvara}}
+\begin{itemize}
+  \item Jira
+  \item Git
+  \item Visual Studeo
+  \item Anddroid Studeo
+  \item IntelliJ
+  \item Eclipse
+\end{itemize}
+\vspace{-10pt} % Justera vertikal placering av minipage
+\subsection*{\textcolor{colorBlue}{Språk}}
+Svenska, Engelska
+\end{minipage}
+
+\begin{minipage}[t]{0.7\textwidth}
+  
+  \vspace{15pt} % Justera vertikal placering av minipage
+  \subsection*{\textcolor{colorTitelErfarenhet}{CGI, Flexmeister – 2023/06 till 2023/08}}
+  För att på ett mer effektivare set logga och hantera anställdas flex tider var Björn med och 
+  skapade en flex-tids hanterar app som har en webbaserad klient och en server med ett Rest API som är 
+  byggt för att Kunnas byggas ut om fler sorters klienter skulle behövas. Utvecklingen implementerades 
+  enligt följa alla stegen i en CI/CD process.
+
+  \vspace{5pt}\textit{Tekniker som använts: Python3, GIT, Bash, Linux, Dockor och Jenkins.}
+
+  \vspace{15pt} % Justera vertikal placering av minipage
+  \subsection*{\textcolor{colorTitelErfarenhet}{CGI, Studentprojekt i samarbete med BTH, mjukvaruutvecklare - 2020/02 till 2020/06}}
+  Tillsammans med sitt team utvecklade Björn en ritningshantering för marinen. 
+  I projektet användes agila arbetsflöden med användning av verktyget Jira. 
+  Utvekling inom Java, Spring Boot, Unit Testing, Integration tests.
+  
+  \vspace{5pt}\textit{Tekniker som använts: Java, JavaScript, Spring Boot, Visual Code, Gradel, Git, Jira, Unit Testing och Integration tests.} 
+  
+  \vspace{15pt} % Justera vertikal placering av minipage
+  \subsection*{\textcolor{colorTitelErfarenhet}{SIGMA, Webb/mjukvaruutveckling - 2019/02 till 2019/07}}
+  Under denna tid så utvecklade Björn tillsammans med sitt team ett transportsystem 
+  till Karlskrona kommun, som nu används av kommunanställda för att boka transporter. 
+  Han var en fullstack utvecklare med fokus på testning och front-end utveckling.
+  
+  \vspace{5pt}\textit{Tekniker som använts: JavaScript, Dart, NodeJs, Gradle, MariaDB, Azure, Google Cloud, Git, React.js och Maven, Docker.} 
+  
+
+  \vspace{15pt} % Justera vertikal placering av minipage
+  \subsection*{\textcolor{colorTitelErfarenhet}{Sjobeck Prime, Serveransvarig/mjukvaruutveckling - 2014/01 till 2014/08}}
+  Under sin tid på Sjobeck Prime satte Björn upp Linux-baserade utvecklingsservrar samt utvecklade 
+  prototyper för Iphone. Men han var även ansvarig för de interna servrarna och tjänsterna.
+  
+  \vspace{5pt}\textit{Tekniker som använts: Java, Bash, Objekt-C, MySQL, XCode, Linux, Git och Jira} 
+    
+
+  \vspace{15pt} % Justera vertikal placering av minipage
+  \subsection*{\textcolor{colorTitelErfarenhet}{Simrishamn kommun, IT avdelning - 2011/03 till 2011/09}}
+  Björn utvecklade kommunens rapporteringssystem för hemtjänsten, mestadels i programmeringsspråket .NET.
+  
+  \vspace{5pt}\textit{Tekniker som använts: MySQL, .NET, JavaScript, Visual Studio och Git.}
+    
+
+  \vspace{15pt} % Justera vertikal placering av minipage
+  \subsection*{\textcolor{colorTitelErfarenhet}{Crunch Fish, APU/ Android apputveckling - 2009/01 till 2010/01}}
+  Björn arbetade med att utveckla en musikinriktad app för Android. Han var även med och gjorde prototyper för framtida projekt.
+  
+  \vspace{5pt}\textit{Tekniker som använts: Java, XML, HTML och Android Studio.}
+
+\end{minipage}%
+\vspace{40pt} % Justera vertikal placering av minipage
+
+\begin{minipage}[t]{0.4\textwidth}
+
+\section*{\textcolor{colorBlue}{Tekniska specialiseringar}}
+
+\begin{description}
+  \item [ Frontend utveckling ]
+  \item [ Backend utveckling ]
+  \vspace{-5pt}\item [ Linux \& DevOps ] 
+  \vspace{-5pt}\item [ CI/CD ]
+  \vspace{-5pt}
+\end{description}
+
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.6\textwidth}
+
+\section*{\textcolor{colorBlue}{Utbildning}}
+
+\begin{description}
+  \item [ Software engineering, Kandidatexamen, Blekinge tekniska högskola ] 2017 - pågående
+  \item [ Tekniskt Basår, Kandidatexamen, Blekinge tekniska högskola ] 2015 - 2016
+  \item [ Javautveckling (1 år), Yrkesutbildning, Malmö ] 2014 - 2015
+
+  \item [ Linux systemspecialist (2 år), Yrkesutbildning, Helsingborg ] 2012 - 2014 
+  
+  Linux system och dess uppbyggnad, virtualisering och klustring av 
+ system och tjänster, användarhantering i en Linux miljö, web server 
+ service-hantering och underhåll.
+\end{description}
+
+\end{minipage}%
+\vspace{10pt}
+
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor{colorBlue}
+\multicolumn{1}{|l|}{\textcolor{white}{\textbf{Kompetens}}} & \multicolumn{1}{l|}{\textcolor{white}{\textbf{Antal år}}} & \multicolumn{1}{l|}{\textcolor{white}{\textbf{Skicklighetsgrad}}} \\
+\hline
+\rowcolor{colorBlueTwo}
+\multicolumn{3}{|l|}{\textcolor{white}{\textbf{Teknisk kunskap}}} \\
+\hline
+C++ & 6 & 3 \\
+\hline
+C & 2 & 2 \\
+\hline
+C\# & 2 & 2 \\
+\hline
+Objekt-C & 1 & 1 \\
+\hline
+Linux & 8 & 4 \\
+\hline
+Bash & 8 & 4 \\
+\hline
+Unit Testing & 3 & 3 \\
+\hline
+Integration Testing & 2 & 2 \\
+\hline
+Load Testing & 2 & 2 \\
+\hline
+Assembler AT\&T & 3 & 3 \\
+\hline
+Azure & 1 & 1 \\
+\hline
+Spring Boot & 1 & 2 \\
+\hline
+Java & 2 & 3 \\
+\hline
+JavaScript & 3 & 3 \\
+\hline
+.NET & 1 & 1 \\
+\hline
+Python & 1 & 2 \\
+\hline
+GO & 1 & 1 \\
+\hline
+HTML & 8 & 3 \\
+\hline
+CSS & 8 & 2 \\
+\hline
+PHP & 1 & 1 \\
+\hline
+SQL & 3 & 2 \\
+\hline
+Docker & 1 & 2 \\
+\hline
+Chat-GPT & 1 & 2 \\
+\hline
+MongoDB & 1 & 2 \\
+\hline
+Boostrap & 1 & 2 \\
+\hline
+Jenkins & 1 & 1 \\
+\hline
+Marvin & 1 & 1 \\
+\hline
+Gradel & 1 & 1 \\
+\hline
+Windows Subsystem Linux (WSL1, WSL2) & 3 & 3 \\
+\hline
+\rowcolor{colorBlueTwo}
+\multicolumn{3}{|l|}{\textcolor{white}{\textbf{Applikationskunskap}}} \\
+\hline
+Eclipse & 1 & 2 \\
+\hline
+Visual Studio & 10 & 3 \\
+\hline
+Android studio & 1 & 2 \\
+\hline
+IntelliJ & 3 & 3 \\
+\hline
+Git & 5 & 3 \\
+\hline
+\rowcolor{colorBlueTwo}
+\multicolumn{3}{|l|}{\textcolor{white}{\textbf{IT disciplines}}} \\
+\hline
+Systemutvecklare & 3 & 3 \\
+\hline
+Mjukvaruutvecklare & 6 & 3 \\
+\hline
+Embedded Software Development & 1 & 3 \\
+\hline
+CI/CD processer & 3 & 3 \\
+\hline
+Agile ITIL arbetsflöden & 3 & 3 \\
+\hline
+\rowcolor{colorBlue}
+\multicolumn{3}{|l|}{\textcolor{white}{\textbf{Tal Språk}}} \\
+\hline
+Svenska & 30 & 4 \\
+\hline
+Engelska & 25 & 4 \\
+\hline
+\multicolumn{3}{l}{\textbf{\*Skicklighetsgrad: 1 = Basic, 2 = Intermediate, 3 = Advanced, 4 = Expert}} \\
+
+
+\end{tabular}
+
+
+\end{document}
