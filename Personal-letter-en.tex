@@ -8,7 +8,7 @@
 \usepackage{caption}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage[export]{adjustbox} % Lägg till adjustbox-paketet
+\usepackage[export]{adjustbox} % Add the adjustbox package
 
 \newgeometry{left=1.5cm, right=1.5cm, top=1.5cm}
 \setlist[itemize]{itemsep=-2pt}
@@ -18,60 +18,56 @@
 \definecolor{colorMainText}{HTML}{222222}
 \definecolor{colorSubText}{HTML}{666666}
 
-% Definiera färgen för subrubrikerna
+% Define color for subsections
 
-%\setlength{\arrayrulewidth}{1pt} % Ta bort tjockleken på tabellens linjer
+%\setlength{\arrayrulewidth}{1pt} % Remove table line thickness
 
 \begin{document}
-
-\begin{minipage}[t]{0.7\textwidth}
-\titleformat{\section}{\Huge\bfseries}{\thesection}{1em}{}
-\titlespacing{\subsection}{0pt}{*0.5}{*0.5}
-\section*{\textcolor{colorBlue}{Björn Blomberg}}
-\subsection*{\textcolor{colorRed}{Systemutvecklare}}
-\subsection*{3 års erfarenhet av systemutveckling}
-\rule{7.7cm}{0.4pt}
-\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
-\vspace{1.5cm}
-\end{minipage}%
-\begin{minipage}[t]{0.3\textwidth}
-\vspace{-10pt} % Justera vertikal placering av minipage
-\end{minipage}%
-
-\noindent
-\begin{minipage}[t]{0.7\textwidth}
-\vspace{-20pt} % Justera vertikal placering av minipage
-\section*{\textcolor{colorBlue}{Profil}}
-Björn är en passionerad utvecklare med lite över 3 års erfarenhet av fullstack-mjukvaruutveckling 
-i både större team och som enskild utvecklare. Han har arbetat och studerat inom många olika system, 
-inklusive inbäddade system och 
-
-molnorienterade system.
-
-\vspace{10pt}
-Under sina studier vid Blekinge Tekniska Högskola har han bland annat studerat programmeringsspråket C 
-och implementerat och tagit fram nya algoritmer. Både vid studier och i alla de professionella arbetsuppdrag 
-Björn varit involverad i mer än sammanlagt 5 års tid, har Björn dagligen använt GIT. Han har även använt C 
-inom projekt relaterade till Raspberry Pi och hemautomatisering med stort fokus på inbäddade system. 
-Under sin tid på CGI har han bland annat byggt ett system för att presentera transporttider från 
-Blekingetrafiken med hjälp av Python. Björn har använt Python som komplement till många av sina 
-tidigare projekt för att hantera och styra, skicka och ta emot information från olika system.
-
-\vspace{10pt}
-Han är en person som är glad att prata och kommunicera med sitt team och är inte rädd för att ta 
-initiativ för att lösa problem som dyker upp. Björn har en stark drivkraft att lära sig och arbeta 
-med nya tekniker och system, vilket är den främsta anledningen till att han gav sig in i 
-mjukvaruutveckling och IT-branschen.
-
-\end{minipage}%
-\hfill
-\begin{minipage}[t]{0.28\textwidth}
-\begin{minipage}[t]{0.8\textwidth}
-\vspace{-10pt} % Justera vertikal placering av minipage
-  \includegraphics[width=\linewidth]{me.png}
-  \label{fig:bild}
-\end{minipage}
-
-\end{minipage}
-
+	
+	\begin{minipage}[t]{0.7\textwidth}
+		\titleformat{\section}{\Huge\bfseries}{\thesection}{1em}{}
+		\titlespacing{\subsection}{0pt}{*0.5}{*0.5}
+		\section*{\textcolor{colorBlue}{Björn Blomberg}}
+		\subsection*{\textcolor{colorRed}{Systems Developer}}
+		\subsection*{3 years of experience in system development}
+		\rule{7.7cm}{0.4pt}
+		\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+		\vspace{1.5cm}
+	\end{minipage}%
+	\begin{minipage}[t]{0.3\textwidth}
+		\vspace{-10pt} % Adjust vertical placement of minipage
+	\end{minipage}%
+	
+	\noindent
+	\begin{minipage}[t]{0.7\textwidth}
+		\vspace{-20pt} % Adjust vertical placement of minipage
+		\section*{\textcolor{colorBlue}{Profile}}
+		Björn is a passionate developer with just over 3 years of experience in full-stack software development 
+		both in larger teams and as an individual developer. He has worked and studied within many different systems, 
+		including embedded systems and cloud-oriented systems.
+		
+		\vspace{10pt}
+		During his studies at Blekinge Institute of Technology, he has studied the programming language C 
+		and implemented and developed new algorithms. Both in his studies and in all the professional assignments 
+		Björn has been involved in for a total of more than 5 years, he has used GIT on a daily basis. He has also used C 
+		in projects related to Raspberry Pi and home automation with a strong focus on embedded systems. 
+		During his time at CGI, he built a system to present transport times from Blekingetrafiken using Python. 
+		Björn has used Python as a complement to many of his previous projects to handle and control, send, and receive information from various systems.
+		
+		\vspace{10pt}
+		He is a person who is happy to talk and communicate with his team and is not afraid to take 
+		initiative to solve problems that arise. Björn has a strong drive to learn and work with new technologies and systems, 
+		which is the main reason he entered the software development and IT industry.
+		
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.28\textwidth}
+		\begin{minipage}[t]{0.8\textwidth}
+			\vspace{-10pt} % Adjust vertical placement of minipage
+			\includegraphics[width=\linewidth]{me.png}
+			\label{fig:image}
+		\end{minipage}
+		
+	\end{minipage}
+	
 \end{document}
