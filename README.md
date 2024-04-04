@@ -74,6 +74,15 @@ $ latexmk <file.tex>
 # It vill generate a pdf file with same name as the file
 ```
 
+## IDE
+```bash
+# Instal IDE
+# Fedora 
+$ sudo dnf install texstudeo
+# depend
+$ sudo dnf install texlive texlive-collection-latexextra
+```
+
 
 Made with :heart: by <a href="https://github.com/brasse18" target="_blank">Björn Blomberg</a>
 
