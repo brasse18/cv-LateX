@@ -1,0 +1,235 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox} % Add the adjustbox package
+
+\newgeometry{left=1.5cm, right=1.5cm, top=1.5cm}
+\setlist[itemize]{itemsep=-2pt}
+\definecolor{colorBlue}{HTML}{646EDB}
+\definecolor{colorBlueTwo}{HTML}{64AADB}
+\definecolor{colorRed}{HTML}{DB646E}
+\definecolor{colorGreen}{HTML}{6FDB64}
+\definecolor{colorBron}{HTML}{DB9564}
+
+\definecolor{colorMainText}{HTML}{222222}
+\definecolor{colorSubText}{HTML}{666666}
+
+\definecolor{colorTitelErfarenhet}{HTML}{DB9564}
+
+% Define color for subheadings
+
+%\setlength{\arrayrulewidth}{1pt} % Remove thickness of table lines
+
+\begin{document}
+	
+	\begin{minipage}[t]{0.7\textwidth}
+		\titleformat{\section}{\Huge\bfseries}{\thesection}{1em}{}
+		\titlespacing{\subsection}{0pt}{*0.5}{*0.5}
+		\section*{\textcolor{colorBlue}{Björn Blomberg}}
+		\subsection*{\textcolor{colorTitelErfarenhet}{Systems Developer}}
+		\subsection*{3 års erfarenhet av systemutveckling}
+		\rule{10cm}{0.4pt}
+		\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+		\vspace{1.5cm}
+	\end{minipage}%
+	\begin{minipage}[t]{0.3\textwidth}
+		\vspace{-10pt} % Adjust vertical placement of minipage
+	\end{minipage}%
+	
+	\noindent
+	\begin{minipage}[t]{0.7\textwidth}
+		\vspace{-20pt} % Adjust vertical placement of minipage
+		\section*{\textcolor{colorBlue}{Profil}}
+		\include{./Profile/Embeded/text.tex}
+			\section*{\textcolor{colorBlue}{Erfarenhet}}
+		\input{./Experience/Top.tex}
+		\vspace{10pt} % Adjust vertical placement of minipage
+		
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.28\textwidth}
+		\begin{minipage}[t]{0.8\textwidth}
+			\vspace{-140pt} % Adjust vertical placement of minipage
+			\includegraphics[width=\linewidth]{../../me-s.png}
+			\label{fig:bild}
+		\end{minipage}
+		\vspace{-10pt} % Adjust vertical placement of minipage
+		\subsection*{\textcolor{colorBlue}{Kvalifikationer}}
+		\begin{itemize}
+			\item Networking
+			\item Problem-solving
+			\item Software design
+			\item Agile workflows
+			\item Server maintenance
+			\item Linux system / Bash
+			\item Assembler AT\&T/ GNU
+			\item C / C++ / C\# / Objekt-C
+			\item Java / JavaScript / .NET
+			\item Python / GO
+			\item HTML / CSS / PHP /SQL
+			\item Spring Boot / Gradle
+			\item Unit Testing
+			\item Integration Testing
+			\item Windows Subsystem Linux (WSL)
+		\end{itemize}
+		\vspace{-10pt} % Adjust vertical placement of minipage
+		\subsection*{\textcolor{colorBlue}{Verktyg \& Programvara}}
+		\begin{itemize}
+			\item Jira
+			\item Git
+			\item Visual Studio
+			\item Android Studio
+			\item IntelliJ
+			\item Eclipse
+		\end{itemize}
+		\vspace{-10pt} % Adjust vertical placement of minipage
+		\subsection*{\textcolor{colorBlue}{Språk}}
+		Swedish, English
+	\end{minipage}
+	\input{./Experience/TheRest.tex}
+\vspace{40pt} % Adjust vertical placement of minipage
+
+\begin{minipage}[t]{0.35\textwidth}
+	
+	\section*{\textcolor{colorBlue}{Tekniska Specialiseringar}}
+	
+	\begin{description}
+		\item [ Frontend development ]
+		\item [ Backend development ]
+		\vspace{-5pt}\item [ Linux \& DevOps ] 
+		\vspace{-5pt}\item [ CI/CD ]
+		\vspace{-5pt}
+	\end{description}
+	
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.7\textwidth}
+	
+	\section*{\textcolor{colorBlue}{Utbildning}}
+	
+	\begin{description}
+		\item [ Software Engineering, Kandidatexamen, Blekinge Tekniska Högskola] 2017 - pågående
+		\item [ Tekniskt Förberedande År, Kandidatexamen, Blekinge Tekniska Högskola] 2015 - 2016
+		\item [ Javautveckling (1 år), Yrkeshögskoleutbildning, Malmö ] 2014 - 2015
+		\item [ Linux System Specialist (2 år), Yrkeshögskoleutbildning, Helsingborg ] 2012 - 2014 
+		
+		Linux-system och dess struktur, virtualisering och klustring av system och tjänster, användarhantering i en Linux-miljö, hantering och underhåll av webbserverstjänster.
+	\end{description}
+	
+\end{minipage}%
+\vspace{10pt}
+
+\begin{tabular}{|l|l|l|}
+	\hline
+	\rowcolor{colorBlue}
+\multicolumn{1}{|l|}{\textcolor{white}{\textbf{Kompetens}}} & \multicolumn{1}{l|}{\textcolor{white}{\textbf{År}}} & \multicolumn{1}{|l|}{\textcolor{white}{\textbf{Färdighetsnivå}}} \\
+\hline
+\rowcolor{colorBlueTwo}
+\multicolumn{3}{|l|}{\textcolor{white}{\textbf{Färdighetsnivå}}} \\
+\hline
+	C++ & 6 & 3 \\
+	\hline
+	C & 2 & 2 \\
+	\hline
+	C\# & 2 & 2 \\
+	\hline
+	Objective-C & 1 & 1 \\
+	\hline
+	Linux & 8 & 4 \\
+	\hline
+	Bash & 8 & 4 \\
+	\hline
+	Unit Testing & 3 & 3 \\
+	\hline
+	Integration Testing & 2 & 2 \\
+	\hline
+	Load Testing & 2 & 2 \\
+	\hline
+	Assembler AT\&T & 3 & 3 \\
+	\hline
+	Azure & 1 & 1 \\
+	\hline
+	Spring Boot & 1 & 2 \\
+	\hline
+	Java & 2 & 3 \\
+	\hline
+	JavaScript & 3 & 3 \\
+	\hline
+	.NET & 1 & 1 \\
+	\hline
+	Python & 1 & 2 \\
+	\hline
+	GO & 1 & 1 \\
+	\hline
+	HTML & 8 & 3 \\
+	\hline
+	CSS & 8 & 2 \\
+	\hline
+	PHP & 1 & 1 \\
+	\hline
+	SQL & 3 & 2 \\
+	\hline
+	Docker & 1 & 2 \\
+	\hline
+	Chat-GPT & 1 & 2 \\
+	\hline
+	MongoDB & 1 & 2 \\
+	\hline
+	PostgreSQL & 1 & 2 \\
+	\hline
+	Bootstrap & 1 & 2 \\
+	\hline
+	Jenkins & 1 & 1 \\
+	\hline
+	Maven & 1 & 1 \\
+	\hline
+	Gradle & 1 & 1 \\
+	\hline
+	Windows Subsystem for Linux (WSL1, WSL2) & 3 & 3 \\
+	\hline
+	\rowcolor{colorBlueTwo}
+	\multicolumn{3}{|l|}{\textcolor{white}{\textbf{Applikationskunskap}}} \\
+	\hline
+	Eclipse & 1 & 2 \\
+	\hline
+	Visual Studio & 10 & 3 \\
+	\hline
+	Android Studio & 1 & 2 \\
+	\hline
+	IntelliJ & 3 & 3 \\
+	\hline
+	Git & 5 & 3 \\
+	\hline
+	\rowcolor{colorBlueTwo}
+	\multicolumn{3}{|l|}{\textcolor{white}{\textbf{IT-discipliner}}} \\
+	\hline
+	System Developer & 3 & 3 \\
+	\hline
+	Software Developer & 6 & 3 \\
+	\hline
+	Embedded Software Development & 1 & 3 \\
+	\hline
+	CI/CD Processes & 3 & 3 \\
+	\hline
+	Agile ITIL Workflows & 3 & 3 \\
+	\hline
+	\rowcolor{colorBlue}
+	\multicolumn{3}{|l|}{\textcolor{white}{\textbf{Languages}}} \\
+	\hline
+	Swedish & 30 & 4 \\
+	\hline
+	English & 25 & 4 \\
+	\hline
+	\multicolumn{3}{l}{\textbf{*Proficiency level: 1 = Basic, 2 = Intermediate, 3 = Advanced, 4 = Expert}} \\
+	
+\end{tabular}
+
+
+\end{document}
