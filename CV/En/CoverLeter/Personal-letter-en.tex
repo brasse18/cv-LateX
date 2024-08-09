@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox} % Add the adjustbox package
+
+\newgeometry{left=1.5cm, right=1.5cm, top=1.5cm}
+\setlist[itemize]{itemsep=-2pt}
+\definecolor{colorBlue}{HTML}{646EDB}
+\definecolor{colorRed}{HTML}{DB646E}
+\definecolor{colorBlueTwo}{HTML}{64AADB}
+\definecolor{colorMainText}{HTML}{222222}
+\definecolor{colorSubText}{HTML}{666666}
+
+% Define color for subsections
+
+%\setlength{\arrayrulewidth}{1pt} % Remove table line thickness
+
+\begin{document}
+	
+	\begin{minipage}[t]{0.7\textwidth}
+		\titleformat{\section}{\Huge\bfseries}{\thesection}{1em}{}
+		\titlespacing{\subsection}{0pt}{*0.5}{*0.5}
+		\section*{\textcolor{colorBlue}{Björn Blomberg}}
+		\subsection*{\textcolor{colorRed}{Systems Developer}}
+		\subsection*{3 years of experience in system development}
+		\rule{7.7cm}{0.4pt}
+		\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+		\vspace{1.5cm}
+	\end{minipage}%
+	\begin{minipage}[t]{0.3\textwidth}
+		\vspace{-10pt} % Adjust vertical placement of minipage
+	\end{minipage}%
+	
+	\noindent
+	\begin{minipage}[t]{0.7\textwidth}
+		\vspace{-20pt} % Adjust vertical placement of minipage
+		\section*{\textcolor{colorBlue}{Profile}}
+        \include{../Profile/Java-web/text.tex}
+		
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.28\textwidth}
+		\begin{minipage}[t]{0.8\textwidth}
+			\vspace{-10pt} % Adjust vertical placement of minipage
+			\includegraphics[width=\linewidth]{../../../me-s.png}
+			\label{fig:image}
+		\end{minipage}
+		
+	\end{minipage}
+	
+\end{document}
